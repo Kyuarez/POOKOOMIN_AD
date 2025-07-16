@@ -12326,6 +12326,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1794458811578381426, guid: 18928ff8e7ae34f4cb4a3d904539e134, type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2991003575800336072, guid: 18928ff8e7ae34f4cb4a3d904539e134, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.9
