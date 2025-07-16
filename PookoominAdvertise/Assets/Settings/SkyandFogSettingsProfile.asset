@@ -143,6 +143,34 @@ MonoBehaviour:
   planetCenterPosition:
     m_OverrideState: 0
     m_Value: {x: 0, y: -6378100, z: 0}
+--- !u!114 &-5316505820725411921
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 0
+    m_Value: 0.2
+  contrast:
+    m_OverrideState: 1
+    m_Value: 30
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 1
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 30
 --- !u!114 &-2857290308422890043
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -170,10 +198,10 @@ MonoBehaviour:
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 1.4074419
+    m_Value: 1.314635
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.3450644, y: 0.40553227, z: 0.5}
+    m_Value: {x: 0.23206362, y: 0.32072726, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 1
     m_Value: 20293
@@ -188,7 +216,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 1cde0e200e792cb4491204276a656490, type: 3}
+    m_Value: {fileID: 8900000, guid: 90196f2c2d8d2f2448717676e1a09894, type: 3}
   distortionMode:
     m_OverrideState: 0
     m_Value: 0
@@ -334,6 +362,7 @@ MonoBehaviour:
   - {fileID: 7642060734654139733}
   - {fileID: -2857290308422890043}
   - {fileID: -2253108714868080820}
+  - {fileID: -5316505820725411921}
 --- !u!114 &1142777632297148762
 MonoBehaviour:
   m_ObjectHideFlags: 3
