@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FlowerController : MonoBehaviour
 {
-    public Vector3 rotationSpeed = new Vector3(0, 30, 0);
+    public Vector3 rotationSpeed = new Vector3(0, 36, 0);
     public int direction = 1;
 
     private void Start()
